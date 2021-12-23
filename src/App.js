@@ -18,7 +18,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const features = [
   {
-    name: 'Analytcs',
+    name: 'Analytics',
     href: '#',
     description: 'Get a better understanding of where your traffic is coming from.',
     icon: ChartBarIcon,
