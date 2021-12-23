@@ -85,7 +85,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <a href="https://everaise.org">
                 <span className="sr-only">Workflow</span>
                 <img
                   className="h-8 w-auto sm:h-10"
@@ -166,10 +166,10 @@ export default function App() {
                 )}
               </Popover>
 
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="https://everaise.org" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Pricing
               </a>
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="https://everaise.org" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Docs
               </a>
 
@@ -223,7 +223,7 @@ export default function App() {
                               <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
                                 Recent Posts
                               </h3>
-                              <ul role="list" className="mt-4 space-y-4">
+                              <ul className="mt-4 space-y-4">
                                 {recentPosts.map((item) => (
                                   <li key={item.id} className="text-base truncate">
                                     <a href={item.href} className="font-medium text-gray-900 hover:text-gray-700">
@@ -234,7 +234,7 @@ export default function App() {
                               </ul>
                             </div>
                             <div className="mt-5 text-sm">
-                              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                              <a href="https://everaise.org" className="font-medium text-indigo-600 hover:text-indigo-500">
                                 {' '}
                                 View all posts <span aria-hidden="true">&rarr;</span>
                               </a>
@@ -248,11 +248,11 @@ export default function App() {
               </Popover>
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="https://everaise.org" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
                 Sign in
               </a>
               <a
-                href="#"
+                href="https://everaise.org"
                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Sign up
@@ -308,11 +308,11 @@ export default function App() {
               </div>
               <div className="py-6 px-5 space-y-6">
                 <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  <a href="https://everaise.org" className="text-base font-medium text-gray-900 hover:text-gray-700">
                     Pricing
                   </a>
 
-                  <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  <a href="https://everaise.org" className="text-base font-medium text-gray-900 hover:text-gray-700">
                     Docs
                   </a>
                   {resources.map((item) => (
@@ -327,14 +327,14 @@ export default function App() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://everaise.org"
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Sign up
                   </a>
                   <p className="mt-6 text-center text-base font-medium text-gray-500">
                     Existing customer?
-                    <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                    <a href="https://everaise.org" className="text-indigo-600 hover:text-indigo-500">
                       Sign in
                     </a>
                   </p>
@@ -359,7 +359,7 @@ export default function App() {
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://everaise.org"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                 >
                   Get started
@@ -367,7 +367,7 @@ export default function App() {
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
-                  href="#"
+                  href="https://everaise.org"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                 >
                   Live demo
