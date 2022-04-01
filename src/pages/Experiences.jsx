@@ -1,3 +1,4 @@
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import Nav from "../components/Nav";
 
@@ -34,7 +35,10 @@ export default function Experiences() {
                     onClick={(e) => updateDescriptions(e, idx)}
                     className="text-left mt-8 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
                   >
-                    <p className="text-3xl text-gray-800 font-bold">Biotechnology Design</p>
+                    <div className="flex items-center">
+                      {show ? <ChevronDownIcon className="flex-shrink-0 text-gray-800 h-8 w-8" /> : <ChevronRightIcon className="flex-shrink-0 text-gray-800 h-8 w-8" />}  
+                      <span className="ml-3 text-3xl text-gray-800 font-bold">Biotechnology Design</span>
+                    </div>
                     {show &&
                       <div className="mt-4">
                         <p className="text-xl text-gray-700">
