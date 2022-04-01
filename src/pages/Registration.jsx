@@ -24,6 +24,7 @@ export default function Registration() {
                   frameborder="0" 
                   marginheight="0" 
                   marginwidth="0"
+                  title="Registration form"
                 >
                   Loading...
                 </iframe>

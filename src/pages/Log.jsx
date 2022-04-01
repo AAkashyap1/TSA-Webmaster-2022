@@ -36,7 +36,7 @@ export default function Experiences() {
                 >
                   <p className="text-3xl text-gray-800 font-bold">Work Log</p>
                   <div className="mt-4">
-                    <a href="" className="text-xl text-blue-500 underline">
+                    <a href="https://everaise.org" className="text-xl text-blue-500 underline">
                       (insert work log here)
                     </a>
                   </div>
@@ -50,7 +50,7 @@ export default function Experiences() {
                 >
                   <p className="text-3xl text-gray-800 font-bold">Copyright Checklist</p>
                   <div className="mt-4">
-                    <a href="" className="text-xl text-blue-500 underline">
+                    <a href="https://everaise.org" className="text-xl text-blue-500 underline">
                       (insert copyright checklist here)
                     </a>
                   </div>
