@@ -4,17 +4,41 @@ import Nav from "../components/Nav";
 
 const news = [
   {
-    title: 'Biotechnology Design',
-    description: 'Participants select a contemporary biotechnology problem that reflects the theme for the year. Participants demonstrate understanding of the topic through documented research, the development of a solution, a display (including an optional model or prototype), and an effective multimedia presentation.'
+    title: 'Innovations in Web Design',
+    description: 'Leaders in the web design field will showcase their recent projects, such as new updates to JavaScript, new innovations in backend, and new features coming to many modern web browsers. Presentations will last approximately 1 hour each, and will be held over the entire first day. These presentions will be held in zoom room 1.'
   },
   {
-    title: 'David is Cute',
-    description: 'Oh yeah David'
+    title: 'The role of AI in programming',
+    description: 'Managers of the GitHub Copilot™ team will be given a chance to present their recent work on the GitHub Copilot program. They will go over how they accomplished such a feat, and how it is important to the entire programming community. The presentation will be on day 1, at 3:00-4:00 PM EST, and will be held in zoom room 2.'
+  },
+  {
+    title: 'New Programming Languages',
+    description: 'New programming languages will be announced and explained, including new JavaSript libraries, a new functional programming language, and the newest addition to the C family, boasted the speed of C, but the readability of C#. Presentations will be held on day 1 in zoom room 3, and will be held in one hour increments, starting at 10:00 AM EST, and ending at 1:00 PM EST.'
+  },
+  {
+    title: 'The Future of Technology and business',
+    description: 'Some of the biggest names in Silicon Valley will present on the future of technology and business. They will discuss how they are using technology to solve problems, and the many challenges that they have to face to achieve their vision of the future. Presentations will be held on day 2 in zoom room 1, starting at 2:00 PM EST, and ending at 5:00 PM EST.'
+  },
+  {
+    title: 'Advances in Security Technology',
+    description: 'Agents of intelligence orginizations will give details on new methods of surveillance, and how it keeps us safe. Presentations will be held on day 2 in zoom room 2, starting at 2:00 AM EST, and ending at 3:00 PM EST.'
+  },
+  {
+    title: 'The Material that will power the world',
+    description: 'Leading experts in Materials Science will present their latest advances in the field. They will discuss how they found their "Mircale Material", and how it change the world. Presentations will be held on day 2 in zoom room 3, starting at 4:00 AM EST, and ending at 5:00 PM EST.'
+  },
+  {
+    title: 'Humans on Mars',
+    description: 'Technology visionaries will lay out their plans for how humans will colonize Mars. They will not only show initial designs for Mars Base Alpha, but will also unvail the technology that will allow us to survive there. Presentations will be held on day 2 in zoom room 4, starting at 10:00 AM, and ending at noon.'
+  },
+  {
+    title: 'Closing Ceremonies',
+    description: 'The final presentation hosted by the organizers of the event will go over how all of these technologies will enable us to enter the future. The presentation will be held in all zoom rooms, starting at 5:00 PM EST, and ending at approximately 6:30 PM EST.'
   }
 ]
 
 export default function Experiences() {
-  const [showDescriptions, setShowDescriptions] = useState([false, false])
+  const [showDescriptions, setShowDescriptions] = useState([false, false, false, false, false, false, false, false])
   
   function updateDescriptions(e, idx) {
     e.preventDefault();
