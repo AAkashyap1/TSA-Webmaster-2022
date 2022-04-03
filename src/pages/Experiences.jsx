@@ -1,9 +1,20 @@
-import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import Nav from "../components/Nav";
 
+const news = [
+  {
+    title: 'Biotechnology Design',
+    description: 'Participants select a contemporary biotechnology problem that reflects the theme for the year. Participants demonstrate understanding of the topic through documented research, the development of a solution, a display (including an optional model or prototype), and an effective multimedia presentation.'
+  },
+  {
+    title: 'David is Cute',
+    description: 'Oh yeah David'
+  }
+]
+
 export default function Experiences() {
-  const [showDescriptions, setShowDescriptions] = useState([false, false, false])
+  const [showDescriptions, setShowDescriptions] = useState([false, false])
   
   function updateDescriptions(e, idx) {
     e.preventDefault();
@@ -37,12 +48,12 @@ export default function Experiences() {
                   >
                     <div className="flex items-center">
                       {show ? <ChevronDownIcon className="flex-shrink-0 text-gray-800 h-8 w-8" /> : <ChevronRightIcon className="flex-shrink-0 text-gray-800 h-8 w-8" />}  
-                      <span className="ml-3 text-3xl text-gray-800 font-bold">Biotechnology Design</span>
+                      <span className="ml-3 text-3xl text-gray-800 font-bold">{news[idx].title}</span>
                     </div>
                     {show &&
                       <div className="mt-4">
                         <p className="text-xl text-gray-700">
-                          Participants select a contemporary biotechnology problem that reflects the theme for the year. Participants demonstrate understanding of the topic through documented research, the development of a solution, a display (including an optional model or prototype), and an effective multimedia presentation.
+                          {news[idx].description}
                         </p>
                       </div>
                     }
