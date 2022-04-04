@@ -24,7 +24,7 @@ const news = [
     description: 'Agents of intelligence orginizations will give details on new methods of surveillance, and how it keeps us safe. Presentations will be held on day 2 in zoom room 2, starting at 2:00 AM EST, and ending at 3:00 PM EST.'
   },
   {
-    title: 'The Material that will power the world',
+    title: 'The Material That Will Power the World',
     description: 'Leading experts in Materials Science will present their latest advances in the field. They will discuss how they found their "Mircale Material", and how it change the world. Presentations will be held on day 2 in zoom room 3, starting at 4:00 AM EST, and ending at 5:00 PM EST.'
   },
   {
