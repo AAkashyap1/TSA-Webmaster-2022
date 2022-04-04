@@ -59,8 +59,8 @@ export default function Experiences() {
               <span className="block text-blue-600 xl:inline">TECH EXPERIENCES</span>
             </h1>
             <h2 className="text-4xl font-bold mt-8 text-gray-900 ">
-              <span className="block xl:inline">At our event, students can participate in a</span>{' '}
-              <span className="block text-red-600 xl:inline">plethora of competitions: </span>
+              <span className="block xl:inline">At our event, participants can watch a </span>{' '}
+              <span className="block text-red-600 xl:inline">plethora of presentations: </span>
             </h2>
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full">
