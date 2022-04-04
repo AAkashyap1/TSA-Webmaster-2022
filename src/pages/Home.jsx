@@ -39,7 +39,7 @@ export default function Home() {
           <div className="px-4 sm:px-8">
             <h1 className="tracking-tight font-extrabold text-gray-900 md:text-6xl text-5xl">
               <span className="block xl:inline">Welcome to the</span>{' '}
-              <span className="block text-blue-600 xl:inline">2022 VIRTUAL TECH EXPO</span>
+              <span className="block text-blue-600 xl:inline">2022 VIRTUAL CURRENT TECHNOLOGY EXPO</span>
             </h1>
             <div className="mt-12 grid sm:grid-cols-2 gap-10">
               <div className="text-left">
