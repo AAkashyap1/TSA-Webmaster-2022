@@ -13,7 +13,7 @@ export default function Registration() {
             </h1>
             <h2 className="text-4xl font-bold mt-8 text-gray-900 ">
               <span className="block xl:inline">To sign up, use the following </span>{' '}
-              <span className="block text-red-600 xl:inline">form: </span>
+              <span className="block text-red-600 xl:inline">form(No payment needed): </span>
             </h2>
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full flex justify-center">

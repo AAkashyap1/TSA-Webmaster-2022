@@ -34,10 +34,10 @@ export default function Experiences() {
                 <div 
                   className="text-left rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
                 >
-                  <p className="text-3xl text-gray-800 font-bold">Work Log</p>
+                  <p className="text-3xl text-gray-800 font-bold">Copyright Checklist</p>
                   <div className="mt-4">
-                    <a href="https://everaise.org" className="text-xl text-blue-500 underline">
-                      (insert work log here)
+                    <a href="copyright-checklist.pdf" target = "_blank" download className="text-xl text-blue-500 underline">
+                      Download
                     </a>
                   </div>
                 </div>
@@ -48,10 +48,38 @@ export default function Experiences() {
                 <div 
                   className="text-left rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
                 >
-                  <p className="text-3xl text-gray-800 font-bold">Copyright Checklist</p>
+                  <p className="text-3xl text-gray-800 font-bold">Work Log</p>
                   <div className="mt-4">
-                    <a href="https://everaise.org" className="text-xl text-blue-500 underline">
-                      (insert copyright checklist here)
+                    <a href="plan-of-work-log (2).pdf" target = "_blank" download className="text-xl text-blue-500 underline">
+                      Download
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="mt-8 md:w-4/5 w-full">
+                <div 
+                  className="text-left rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
+                >
+                  <p className="text-3xl text-gray-800 font-bold">Home Button Logo</p>
+                  <div className="mt-4">
+                    <a href="https://www.gatsa.org/chapter-resources/img/logos/tsa-hd.jpg" className="text-xl text-blue-500 underline">
+                      TSA Logo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="mt-8 md:w-4/5 w-full">
+                <div 
+                  className="text-left rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
+                >
+                  <p className="text-3xl text-gray-800 font-bold">Home Button Logo Website</p>
+                  <div className="mt-4">
+                    <a href="https://tsaweb.org/tsa" className="text-xl text-blue-500 underline">
+                      TSA Logo Website
                     </a>
                   </div>
                 </div>

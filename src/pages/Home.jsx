@@ -25,7 +25,7 @@ const faq = [
   },
   {
     title: 'How do I attend the expo?',
-    description: 'To sign up, head over to the registration page, and fill out the google form. We will automatically assign you to each zoom room as necessary.'
+    description: 'To sign up, head over to the registration page, and fill out the google form. We will automatically assign you to each zoom room as necessary. All of that, totally for free!'
   }
   
 ]
