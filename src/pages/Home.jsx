@@ -48,7 +48,7 @@ export default function Home() {
                   <div className="mt-6 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105">
                     <p className="text-3xl text-gray-800 font-bold">{item.title}</p>
                     <div className="mt-4">
-                      <a href="/News" target = "_blank" className="text-2xl text-blue-500 underline">
+                      <a href="/News"  className="text-2xl text-blue-500 underline">
                         {item.description}
                       </a>
                     </div>
