@@ -12,7 +12,7 @@ import Experiences from './pages/Experiences'
 import About from './pages/About';
 import Registration from './pages/Registration'
 import Log from './pages/Log';
-
+import News from './pages/News';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +23,7 @@ ReactDOM.render(
         <Route path="/about" element={<About />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/log" element={<Log />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

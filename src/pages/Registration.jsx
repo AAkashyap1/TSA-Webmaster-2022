@@ -9,7 +9,7 @@ export default function Registration() {
           <div className="px-4 sm:px-8">
             <h1 className="tracking-tight font-extrabold text-gray-900 md:text-6xl text-5xl">
               <span className="block xl:inline">Register for the</span>{' '}
-              <span className="block text-blue-600 xl:inline">REGIONAL EVENT</span>
+              <span className="block text-blue-600 xl:inline">EVENT</span>
             </h1>
             <h2 className="text-4xl font-bold mt-8 text-gray-900 ">
               <span className="block xl:inline">To sign up, use the following </span>{' '}
