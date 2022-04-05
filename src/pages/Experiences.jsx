@@ -2,7 +2,7 @@ import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import Nav from "../components/Nav";
 
-const news = [
+const experiences = [
   {
     title: 'Innovations in Web Design',
     description: 'Leaders in the web design field will showcase their recent projects, such as new updates to JavaScript, new innovations in backend, and new features coming to many modern web browsers. Presentations will last approximately 1 hour each, and will be held over the entire first day. These presentions will be held in zoom room 1.'
@@ -72,12 +72,12 @@ export default function Experiences() {
                   >
                     <div className="flex items-center">
                       {show ? <ChevronDownIcon className="flex-shrink-0 text-gray-800 h-8 w-8" /> : <ChevronRightIcon className="flex-shrink-0 text-gray-800 h-8 w-8" />}  
-                      <span className="ml-3 text-3xl text-gray-800 font-bold">{news[idx].title}</span>
+                      <span className="ml-3 text-3xl text-gray-800 font-bold">{experiences[idx].title}</span>
                     </div>
                     {show &&
                       <div className="mt-4">
                         <p className="text-xl text-gray-700">
-                          {news[idx].description}
+                          {experiences[idx].description}
                         </p>
                       </div>
                     }
