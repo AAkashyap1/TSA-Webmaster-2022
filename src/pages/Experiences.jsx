@@ -9,7 +9,7 @@ const experiences = [
   },
   {
     title: 'The role of AI in programming',
-    description: 'Managers of the GitHub Copilot™ team will be given a chance to present their recent work on the GitHub Copilot program. They will go over how they accomplished such a feat, and how it is important to the entire programming community. The presentation will be on day 1, at 3:00-4:00 PM EST, and will be held in zoom room 2.'
+    description: 'Managers of the Code Helper AI team will be given a chance to present their recent work on the Code Helper AI program. They will go over how they accomplished such a feat, and how it is important to the entire programming community. The presentation will be on day 1, at 3:00-4:00 PM EST, and will be held in zoom room 2.'
   },
   {
     title: 'New Programming Languages',
