@@ -38,7 +38,7 @@ export default function Nav() {
     <Popover className="relative bg-white shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="flex justify-start md:w-0 md:flex-1">
             <Link to="/">
               <img
                 className="h-8 w-auto sm:h-12"
