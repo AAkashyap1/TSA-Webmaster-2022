@@ -29,12 +29,24 @@ const news = [
     title: 'Ten Speakers Signed Up!',
     description: (
       <div>
-        Yesterday, we just had our tenth speaker sign up! We are extremely excited for you to hear about the new innovations in technology this year. Some of them may surprise you!
+        Yesterday, we just had our tenth speaker sign up! We are extremely excited for you to hear about the new innovations in technology this year. They all have impressive background with a wide array of knowledge.
+      </div>
+    )
+  },
+  {
+    title: 'Welcome to the 2022 Virtual Technology Expo!',
+    description: (
+      <div>
+       We are excited to announce the 2022 Virtual Technology Expo! At our event, you can watch presentations exploring the latest trends in technology, learn about the latest innovations in the industry, and get to know the speakers. You will have an oppurtunity to learn more about current technology, which can allow you to advance your career. Entry will be free. The event will take place on June 22, 2022 - June 23, 2022. We hope to see you there!
       </div>
     )
   }
+  
 
+
+  
 ]
+
 export default function News() {
   return (
     <div className="relative bg-gray-50 min-h-screen">

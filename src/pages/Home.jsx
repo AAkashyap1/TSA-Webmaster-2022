@@ -11,21 +11,29 @@ const news = [
   {
     title: 'Ten Speakers Signed Up!',
     description: 'Yesterday, we just had our tenth speaker sign up! Read More...'
+  },
+  {
+    title: 'Welcome to the 2022 Virtual Technology Expo!',
+    description: 'We are excited to announce the 2022 Virtual Technology Expo! Read More...'
   }
 
 ]
 const faq = [
   {
     title: 'What date does the event take place?',
-    description: 'June 22, 2022'
+    description: 'June 22, 2022- June 23, 2022'
+  },
+  {
+    title: 'How do I attend the expo?',
+    description: 'To sign up, head over to the registration page, and fill out the google form. We will automatically assign you to each zoom room as necessary. All of that, totally for free!'
   },
   {
     title: 'How do I become a speaker?',
     description: 'To Become a Speaker, head over to our registration page, scroll down to the "Speaker" section, put in all of your current information, including your topic, profession, and skillset, and we can take care of the rest.'
   },
   {
-    title: 'How do I attend the expo?',
-    description: 'To sign up, head over to the registration page, and fill out the google form. We will automatically assign you to each zoom room as necessary. All of that, totally for free!'
+    title: 'How do I become a sponsor?',
+    description: 'To become a sponsor, head over to our registration page, scroll down to the "Sponsor" section, put in all of your current information, including your company name, and we can take care of the rest.'
   }
   
 ]
