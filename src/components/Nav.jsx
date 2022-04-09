@@ -42,7 +42,7 @@ export default function Nav() {
             <Link to="/">
               <img
                 className="h-8 w-auto sm:h-10"
-                src="/VT.png"
+                src="/VTE.png"
                 alt="Logo"
               />
             </Link>
@@ -75,7 +75,7 @@ export default function Nav() {
                   <Link to="/">
                     <img
                       className="h-8 w-auto"
-                      src="/VT.png"
+                      src="/VTE.png"
                       alt="Logo"
                     />
                   </Link>
