@@ -36,14 +36,14 @@ const pages = [
 export default function Nav() {
   return (
     <Popover className="relative bg-white shadow">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="sm:px-6 max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start md:w-0 md:flex-1">
             <Link to="/">
               <img
-                className="h-8 w-auto sm:h-12"
-                src="https://www.gatsa.org/chapter-resources/img/logos/tsa-hd.jpg"
-                alt=""
+                className="h-8 w-auto sm:h-10"
+                src="/VT.png"
+                alt="Logo"
               />
             </Link>
           </div>
@@ -74,15 +74,14 @@ export default function Nav() {
                 <div className="">
                   <Link to="/">
                     <img
-                      className="h-8 w-auto sm:h-12"
-                      src="https://www.gatsa.org/chapter-resources/img/logos/tsa-hd.jpg"
-                      alt=""
+                      className="h-8 w-auto"
+                      src="/VT.png"
+                      alt="Logo"
                     />
                   </Link>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100">
-                    <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>

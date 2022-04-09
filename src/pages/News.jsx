@@ -1,4 +1,5 @@
 import Nav from "../components/Nav";
+import Card from "../components/Card";
 
 const news = [
   {
@@ -61,18 +62,18 @@ export default function News() {
               <span className="block xl:inline">At our event, participants can watch a </span>{' '}
               <span className="block text-red-600 xl:inline">plethora of presentations: </span>
             </h2>
-            <div className="flex justify-center">
+            <div className="text-left flex justify-center">
               <div className="mt-8 md:w-4/5 w-full">
               {news.map((item) => 
-                  <div className="mt-6 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105">
-                    <p className="text-3xl text-gray-800 font-bold">{item.title}</p>
-                    <div className="mt-4">
-                      <p className="text-xl text-gray-700">
-                        {item.description}
-                      </p>
-                    </div>
+                <Card noPadding={false}>
+                  <p className="text-3xl text-gray-800 font-bold">{item.title}</p>
+                  <div className="mt-4">
+                    <p className="text-xl text-gray-700">
+                      {item.description}
+                    </p>
                   </div>
-                )}
+                </Card>
+              )}
               </div>
             </div>
           </div>

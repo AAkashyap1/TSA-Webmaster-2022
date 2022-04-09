@@ -1,6 +1,7 @@
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import Nav from "../components/Nav";
+import Card from "../components/Card";
 
 const experiences = [
   {
@@ -65,23 +66,25 @@ export default function Experiences() {
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full">
                 {showDescriptions.map((show, idx) => (
-                  <div 
-                    key={idx}
-                    onClick={(e) => updateDescriptions(e, idx)}
-                    className="text-left mt-8 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
-                  >
-                    <div className="flex items-center">
-                      {show ? <ChevronDownIcon className="flex-shrink-0 text-gray-800 h-8 w-8" /> : <ChevronRightIcon className="flex-shrink-0 text-gray-800 h-8 w-8" />}  
-                      <span className="ml-3 text-3xl text-gray-800 font-bold">{experiences[idx].title}</span>
-                    </div>
-                    {show &&
-                      <div className="mt-4">
-                        <p className="text-xl text-gray-700">
-                          {experiences[idx].description}
-                        </p>
+                  <Card noPadding>
+                    <div 
+                      key={idx}
+                      onClick={(e) => updateDescriptions(e, idx)}
+                      className="w-full h-full p-8"
+                    >
+                      <div className="flex items-center">
+                        {show ? <ChevronDownIcon className="flex-shrink-0 text-gray-800 h-8 w-8" /> : <ChevronRightIcon className="flex-shrink-0 text-gray-800 h-8 w-8" />}  
+                        <span className="ml-3 text-3xl text-gray-800 font-bold">{experiences[idx].title}</span>
                       </div>
-                    }
-                  </div>
+                      {show &&
+                        <div className="mt-4">
+                          <p className="text-xl text-left text-gray-700">
+                            {experiences[idx].description}
+                          </p>
+                        </div>
+                      }
+                    </div>
+                  </Card>
                 ))}
               </div>
             </div>

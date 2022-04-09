@@ -13,25 +13,52 @@ export default function Registration() {
             </h1>
             <h2 className="text-4xl font-bold mt-8 text-gray-900 ">
               <span className="block xl:inline">To sign up, use the following </span>{' '}
-              <span className="block text-red-600 xl:inline">form(No payment needed): </span>
+              <span className="block text-red-600 xl:inline">form (no payment needed): </span>
             </h2>
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full flex justify-center">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEsI9nOKs_Uv1K7sQNH88kJVepspK1_yaY1Ee5U_dKUXptnA/viewform?embedded=true" width="640" height="1051" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLScEsI9nOKs_Uv1K7sQNH88kJVepspK1_yaY1Ee5U_dKUXptnA/viewform?embedded=true" 
+                  width="640" 
+                  height="1051" 
+                  frameborder="0" 
+                  marginheight="0" 
+                  marginwidth="0"
+                  title="Registration form7"
+                >
+                  Loading…
+                </iframe>
               </div>
-              
             </div>
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full flex justify-center">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScccPKFsaDmgvE3IFj_IyVXUqXYWYdqcaW9scFVYocFs1YSfQ/viewform?embedded=true" width="640" height="915" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLScccPKFsaDmgvE3IFj_IyVXUqXYWYdqcaW9scFVYocFs1YSfQ/viewform?embedded=true" 
+                  width="640" 
+                  height="1051" 
+                  frameborder="0" 
+                  marginheight="0" 
+                  marginwidth="0"
+                  title="Registration form7"
+                >
+                  Loading…
+                </iframe>
               </div>
-              
             </div>
             <div className="flex justify-center">
               <div className="mt-8 md:w-4/5 w-full flex justify-center">
-               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerRgsmfdxLsl-9IYvtSCwtZuuUD4fFAzfrYCQRg4rmkFRXSw/viewform?embedded=true" width="640" height="661" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSerRgsmfdxLsl-9IYvtSCwtZuuUD4fFAzfrYCQRg4rmkFRXSw/viewform?embedded=true" 
+                  width="640" 
+                  height="870" 
+                  frameborder="0" 
+                  marginheight="0" 
+                  marginwidth="0"
+                  title="Registration form7"
+                >
+                  Loading…
+                </iframe>
               </div>
-              
             </div>
           </div>
         </div>

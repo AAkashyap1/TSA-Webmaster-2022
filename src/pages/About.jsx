@@ -1,4 +1,5 @@
 import Nav from "../components/Nav";
+import Card from "../components/Card";
 
 export default function About() {
   return (
@@ -17,15 +18,13 @@ export default function About() {
             </h2>
             <div className="flex justify-center">
               <div className="md:w-4/5 w-full">
-                <div 
-                  className="text-left mt-8 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
-                >
-                  <div className="">
+                <Card noPadding={false}>
+                  <div className="text-left">
                     <p className="text-xl text-gray-700">
                       Our TSA chapter started in 1995, with just a small group of students who wanted to promote what is now known as STEM and technology in an interesting way. Nowadays, STEM is very widespread, so we are proud to have started teaching the previous generation.
                     </p>
                   </div>
-                </div>
+                </Card>
               </div>
             </div>
             <h2 className="text-4xl font-bold mt-10 text-gray-900 ">
@@ -34,15 +33,13 @@ export default function About() {
             </h2>
             <div className="flex justify-center">
               <div className="md:w-4/5 w-full">
-                <div 
-                  className="text-left mt-8 rounded-lg border w-full p-8 bg-red-100 transition ease-in-out hover:scale-105"
-                >
-                  <div className="">
+                <Card noPadding={false}>
+                  <div className="text-left">
                     <p className="text-xl text-gray-700">
-                    Our TSA Chapter is very proud of our past, and we only plan to grow in the future. We plan to continue our member growth, hopefully reaching up to 100 members in our group. Despite this, membership is not our only goal. We plan to keep innovating, and helping our own communinty. Ultimately, our end goal is to not only provide High School kids with a memorable experience, but to increase the amount of people who benefit from our projects as well.
+                    Our TSA Chapter is very proud of our past, and we only plan to grow in the future. We plan to continue our member growth, hopefully reaching up to 100 members in our group. Despite this, membership is not our only goal. We plan to keep innovating, and helping our own communinty. Ultimately, our end goal is to not only provide high school kids with a memorable experience, but to increase the amount of people who benefit from our projects as well.
                     </p>
                   </div>
-                </div>
+                </Card>
               </div>
             </div>
           </div>
