@@ -9,7 +9,7 @@ const experiences = [
     description: 'Leaders in the web design field will showcase their recent projects, such as new updates to JavaScript, new innovations in backend, and new features coming to many modern web browsers. Presentations will last approximately 1 hour each, and will be held over the entire first day. These presentions will be held in zoom room 1.'
   },
   {
-    title: 'The role of AI in programming',
+    title: 'The Role of AI in Programming',
     description: 'Managers of the Code Helper AI team will be given a chance to present their recent work on the Code Helper AI program. They will go over how they accomplished such a feat, and how it is important to the entire programming community. The presentation will be on day 1, at 3:00-4:00 PM EST, and will be held in zoom room 2.'
   },
   {
@@ -17,7 +17,7 @@ const experiences = [
     description: 'New programming languages will be announced and explained, including new JavaSript libraries, a new functional programming language, and the newest addition to the C family, boasted the speed of C, but the readability of C#. Presentations will be held on day 1 in zoom room 3, and will be held in one hour increments, starting at 10:00 AM EST, and ending at 1:00 PM EST.'
   },
   {
-    title: 'The Future of Technology and business',
+    title: 'The Future of Technology and Business',
     description: 'Some of the biggest names in Silicon Valley will present on the future of technology and business. They will discuss how they are using technology to solve problems, and the many challenges that they have to face to achieve their vision of the future. Presentations will be held on day 2 in zoom room 1, starting at 2:00 PM EST, and ending at 5:00 PM EST.'
   },
   {
